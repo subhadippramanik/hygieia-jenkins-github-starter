@@ -34,7 +34,7 @@ cd hygieia-jenkins-github-starter
 - Set environment variables for data and log persistence. This needs sharing volume to docker with your host os. Open `.env` file and edit the environment variables by providing the paths of your choice.
 - Run containers using command
 ```sh
-docker-compose-up -d
+docker-compose up -d
 ```
 This may initially take some time to pull all required images if not present already.
 
